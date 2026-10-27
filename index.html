@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="title">
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+
+    <div class="imageDisplayBox">
+        <img src="img/paper.webp" alt="you">
+    </div>
+    <div class="imageDisplayBox">
+        <img src="img/paper.webp" alt="computer">
+    </div>
+    <div class="imageDisplayBoxCaption">
+        <h1>You</h1>
+    </div>
+    <div class="imageDisplayBoxCaption">
+        <h1>Computer</h1>
+    </div>
+
+    <div class="scoreBoard">
+        <h1>Scoreboard</h1>
+        <h1>You:0 ------ Computer:0 ------ Tie:0</h1>
+    </div>
+
+    <div class="buttons">
+        <button id="rock" onclick="rockClick()">Rock</button>
+        <button id="paper" onclick="paperClick()">Paper</button>
+        <button id="scissors" onclick="scissorsClick()">Scissors</button>
+    </div>
+    <script src="javabean.js"></script>
+</body>
+</html>

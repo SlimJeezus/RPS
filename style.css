@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: purple;
+}
+
+.imageDisplayBox{
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 50%;
+    height: 200px;
+    border: 3px solid black;
+    background-color: gray;
+}
+
+.imageDisplayBoxCaption{
+    display: flex;
+    float: left;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    border: 3px solid black;
+    background-color: gray;
+}
+
+.scoreBoard{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: purple;
+}
+
+.buttons{
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: black;
+}
